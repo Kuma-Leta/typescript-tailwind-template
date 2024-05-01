@@ -12,32 +12,38 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="container">
+    <div
+      class="container bg-gray-300 flex flex-column justify-center items-center"
+    >
       <div class="innerContainer">
-        <div class="resultRelated">
-          <p class="mainResult header">56 + 2</p>
-          <button class="clear header">AC</button>
+        <div class="resultRelated grid grid-cols-4">
+          <p
+            class="mainResult header bg-white col-span-3 px-4 flex text-black items-center"
+          >
+            56 + 2
+          </p>
+          <button class="clear header bg-green-500 text-white">AC</button>
         </div>
-        <div class="operandAndOperators">
-          <div class="operands">
-            <button class="btn">9</button>
-            <button class="btn">8</button>
-            <button class="btn">7</button>
-            <button class="btn">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn">.</button>
-            <button class="btn">0</button>
-            <button class="btn">=</button>
+        <div class="operandAndOperators grid grid-cols-4">
+          <div class="operands grid grid-cols-3 col-span-3">
+            <button class="btnBlack bg-black text-white">9</button>
+            <button class="btnBlack bg-black text-white">8</button>
+            <button class="btnBlack bg-black text-white">7</button>
+            <button class="btnBlack bg-black text-white">4</button>
+            <button class="btnBlack bg-black text-white">5</button>
+            <button class="btnBlack bg-black text-white">6</button>
+            <button class="btnBlack bg-black text-white">1</button>
+            <button class="btnBlack bg-black text-white">2</button>
+            <button class="btnBlack bg-black text-white">3</button>
+            <button class="btnBlack bg-black text-white">.</button>
+            <button class="btnBlack bg-black text-white">0</button>
+            <button class="btnBlack bg-black text-white">=</button>
           </div>
-          <div class="operators">
-            <button class="btn">+</button>
-            <button class="btn">-</button>
-            <button class="btn">/</button>
-            <button class="btn">*</button>
+          <div class="operators flex flex-col">
+            <button class="btnGray bg-gray-500 text-white">+</button>
+            <button class="btnGray bg-gray-500 text-white">-</button>
+            <button class="btnGray bg-gray-500 text-white">/</button>
+            <button class="btnGray bg-gray-500 text-white">*</button>
           </div>
         </div>
       </div>
