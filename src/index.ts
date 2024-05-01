@@ -1,2 +1,1 @@
-
-console.log("this is normal")
+console.log("this is normal");

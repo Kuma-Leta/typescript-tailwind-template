@@ -1,0 +1,41 @@
+.container {
+  color: blue;
+  min-height: 100vh;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.innerContainer {
+  width: 500px;
+  height: 500px;
+}
+.resultRelated {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.mainResult {
+  background-color: white;
+}
+.clear {
+  background-color: rgb(16, 207, 130);
+}
+.operandAndOperators {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.operands {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.operators {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  height: 60px;
+}
+.header {
+  height: 60px;
+}
